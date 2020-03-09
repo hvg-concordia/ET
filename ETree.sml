@@ -12,7 +12,7 @@
 (*	    Concordia University                                             *)
 (*          Montreal, Quebec, Canada, 2020                                   *)
 (*                                                                           *)
-(* ========================================================================= *
+(* ========================================================================= *)
 
 app load ["arithmeticTheory", "realTheory", "prim_recTheory", "seqTheory",
           "pred_setTheory","res_quanTheory", "res_quanTools", "listTheory", "real_probabilityTheory",
