@@ -143,7 +143,7 @@ once_rewrite_tac [ETREE_CARTN_PROD_DEF]
 \\ rw []
 \\ metis_tac [INTER_COMM]);
 (*---------------------------------------------------------------------------------------------------*)
-val INTER_CATRESIAN_COMM = store_thm("INTER_CARTESIAN_COMM",
+val INTER_CARTESIAN_COMM = store_thm("INTER_CARTESIAN_COMM",
   ``! W1 W2. INTER_CARTESIAN W1 W2 =  INTER_CARTESIAN W2 W1``, 
 
 rw []
@@ -448,7 +448,7 @@ rw []
                INTER_CARTESIAN (INTER_CARTESIAN  X Y) Z`
    >-(rw [INTER_CARTESIAN_ASOCC])
 \\ sg `! W1 W2. INTER_CARTESIAN W1 W2 =  INTER_CARTESIAN W2 W1`
-   >-(rw [INTER_CATRESIAN_COMM])
+   >-(rw [INTER_CARTESIAN_COMM])
 \\ ntac 2 (pop_assum mp_tac)
 \\ metis_tac [boolTheory.LCOMM_THM]);
 (*---------------------------------------------------------------------------------------------------*)
