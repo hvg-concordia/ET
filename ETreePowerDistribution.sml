@@ -1,5 +1,5 @@
 (* ========================================================================= *)
-(* File Name: ETree Power Distribution.sml	                 	     *)
+(* File Name: ETreePowerDistribution.sml	                 	     *)
 (*---------------------------------------------------------------------------*)
 (*          Description: Formalization of Event Trees using                  *)
 (*                       Higher-order Logic Theorem Proving                  *)
@@ -1783,4 +1783,4 @@ val _ = export_theory();
 		       (*--------------------------------------------------*)
 			         (*--------------------------------*)
 					  (*---------------*)
-						********
+						(*-----*)
