@@ -1,6 +1,6 @@
 
 (* ========================================================================= *)
-(* File Name: ETree Theory.sml	          	                             *)
+(* File Name: ETree.sml	          	                                     *)
 (*---------------------------------------------------------------------------*)
 (*          Description: Formalization of Event Trees using		     *)	
 (* 	    		 Higher-order Logic Theorem Proving                  *)
