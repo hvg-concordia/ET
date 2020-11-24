@@ -61,11 +61,13 @@ Now all ET formulations are proved in the HOL4 shell and ready to be used!
 All theorems are stored under a specific different name as follows: store_thm("name")"
 
 Entre the name of any theorem exist at the file "ETree.sml", for instance, "PROB_NODE_OF_PATHS" 
+
 in the HOL4 shell, the HOL4 will load this theorem directly for use without reproof it again.         
 
 "--------------------------- IEEE 3-Bus Power Distribution Application  -------------------------------------------"
 
 We applied our ET theorems on a real-world application IEEE 3-Bus Power Distribution System to show the capability of 
+
 the ET formulations to obtain a system-level reliability/failure expression easily.  
 
 To load the file ==> press the tab “HOL" ==> Misc ==> Load file ==> ETreePowerDistribution.sml
