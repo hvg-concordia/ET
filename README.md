@@ -66,11 +66,8 @@ in the HOL4 shell, the HOL4 will load this theorem directly for use without repr
 
 "--------------------------- IEEE 3-Bus Power Distribution Application  -------------------------------------------"
 
-We applied our ET theorems on a real-world application IEEE 3-Bus Power Distribution System to show the capability of 
-
-the ET formulations to obtain a system-level reliability/failure expression easily.  
-
-To load the file ==> press the tab “HOL" ==> Misc ==> Load file ==> ETreePowerDistribution.sml
+We applied our ET theorems on a real-world IEEE 118-Bus Electrical Power Grid System (IEEE_118_BUS.sml) 
+to show the Superiority of our ET formulations to obtain a system-level reliability/failure expression easily.  
 
 "----------------------------------------   Contacts ---------------------------------------------------------"
 
